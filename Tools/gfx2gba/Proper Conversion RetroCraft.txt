@@ -1,0 +1,13 @@
+-------------
+RetroCraft Games
+-------------
+
+Proper conversion technique using gfx2gba is as follows for our current setup:
+
+gfx2gba -t8 -c256 -poutput.pal -M image.bmp
+
+The bmp must be at 256 colors, which can easily be done by first saving the bmp with GIMP, then using Irfanview's automatic down converter to reduce the image to 256 colors.
+
+-------------
+'Cthulhu32 (Luke A.) - 2008
+-------------
